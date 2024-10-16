@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1320px;
+  margin: 0px auto;
+  padding: 0px 16px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -16px;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-padding {
+  padding: 0px 8px;
+}
+
+/* common class */
+.d-flex {
+  display: flex;
+}
+
+.alin-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.button a {
+  padding: 5px 10px;
+  background-color: white;
+  color: green;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 0px 2px;
+}
+
+.bg-count {
+  background-color: black;
+  padding: 13rem 1em;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.count-text {
+  color: white;
+  font-weight: 800;
+  padding: 15px;
+}
+
+input {
+  border: 2px solid red;
+}
+
+button {
+  border: 2px solid green;
+}
+
+.reset {
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: green;
+  color: black;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
